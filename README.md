@@ -7,6 +7,6 @@ php artisan key:generate
 php artisan migrate:fresh --seed
 php artisan serve
 
-## report-mgmt-api
+## report-mgmt-ui
 npm install
 npm run serve
