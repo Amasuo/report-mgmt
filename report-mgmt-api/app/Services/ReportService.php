@@ -7,6 +7,7 @@ use App\Repositories\ReportRepository;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 
+// also possible to create BaseService (like BaseReporsitory)
 class ReportService implements EloquentServiceInterface
 {
     protected $reportRepository;
